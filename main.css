@@ -2,15 +2,21 @@
 
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Noto Sans', sans-serif;
-  background-color: #f1f5f9;
+  line-height: 1.5;
 }
 
 html {
   font-size: 16px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .btn {
@@ -30,25 +36,56 @@ html {
   color: #68a3ff;
 }
 
-.section {
-  padding: 5rem 0;
-  background-color: #fff;
+.nav {
+  height: 5rem;
+  background-color: #222;
+  padding: 1rem 0;
+}
+.nav-title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
 }
 
-.section-title {
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.title-underline {
-  height: 0.25rem;
-  width: 5rem;
-  background: cornflowerblue;
-  margin: 0.5rem auto 2rem;
-}
-
-.section-center {
+.nav-center {
   width: 90vw;
-  margin: 0 auto;
   max-width: 1170px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: linear-gradient(
+      to right,
+      rgba(105, 62, 27, 0.5),
+      rgba(105, 62, 27, 1)
+    ),
+    url('./koffe.avif') center/cover no-repeat;
+  min-height: calc(100vh - 5rem);
+}
+
+.hero-center {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  color: #fff;
+}
+
+.hero-center h1 {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+}
+
+.hero-center p {
+  margin-bottom: 1.5rem;
+  max-width: 35rem;
+}
+
+.btn-hero {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
 }
