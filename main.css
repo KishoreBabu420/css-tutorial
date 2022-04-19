@@ -36,20 +36,19 @@ a {
   color: #68a3ff;
 }
 
-.banner {
-  border: 5px solid red;
-  padding: 10px;
+div {
+  height: 200px;
+  width: 50%;
+  float: right;
 }
 
 .one {
-  float: left;
+  background-color: red;
 }
-
 .two {
-  float: right;
-  height: 40px;
+  background-color: green;
 }
 
-p {
-  clear: both;
+.three {
+  background-color: blue;
 }
