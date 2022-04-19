@@ -42,27 +42,30 @@ div {
   margin-top: 40px;
   text-align: right;
   padding: 1rem;
+  /* position: relative; */
 }
 
 .one {
   background-color: blue;
   color: white;
   text-align: left;
-  position: relative;
-  /* top: 200px; */
-  /* right: 40px; */
-  bottom: 2rem;
-  left: 20%;
+  /* position: absolute; */
+  /* top: 10%; */
+  /* left: 0; */
 }
 .two {
   background-color: green;
   color: white;
+  position: relative;
 }
 
 .special {
   background-color: pink;
   font-size: 20px;
   color: #222;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
 }
 
 /* Position - relative, absolute, sticky, fixed */
