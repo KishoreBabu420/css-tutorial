@@ -13,46 +13,6 @@ html {
   font-size: 16px;
 }
 
-.card {
-  background-color: #fff;
-  padding: 1.5rem 2rem;
-  text-align: center;
-  max-width: 20rem;
-  margin: 3rem auto;
-  border: 2px solid transparent;
-}
-
-/* height, weight, padding, border, margin */
-/* Padding & Margin: 2 (top & Bottom)(left & right), 3 top, (left & right), bottom, 4 top,right,bottom, left, 1 - all sided  */
-
-/* border: size type color */
-
-.card-1 {
-  border-color: #ff69a6;
-}
-
-.icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-.card-1 .icon {
-  background-color: #ff69a6;
-}
-
-.title {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.text {
-  line-height: 1.5;
-  color: grey;
-  margin: 0.5rem auto;
-}
-
 .btn {
   text-transform: capitalize;
   border: transparent;
@@ -70,10 +30,25 @@ html {
   color: #68a3ff;
 }
 
-.card-2 .icon {
-  background-color: #68a3ff;
+.section {
+  padding: 5rem 0;
+  background-color: #fff;
 }
 
-.card-2 {
-  border-color: #68a3ff;
+.section-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.title-underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: cornflowerblue;
+  margin: 0.5rem auto 2rem;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
 }
