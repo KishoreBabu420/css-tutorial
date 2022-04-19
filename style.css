@@ -1,0 +1,110 @@
+/* CSS Selectors  */
+/* Tag Selector */
+
+/* Universal Selector */
+* {
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.heading-left {
+  color: orange;
+}
+
+.heading-right {
+  text-align: right;
+  color: blue;
+}
+
+a[href='#'] {
+  color: red;
+}
+
+a:not([href='#']) {
+  color: greenyellow;
+}
+
+/* Grouping selectors */
+.light,
+.dark {
+  height: 200px;
+}
+
+.light {
+  background-color: rgba(19, 44, 120, 0.5);
+}
+
+.dark {
+  background-color: darkseagreen;
+}
+
+.section-title {
+  text-align: center;
+}
+
+/* Combinator */
+
+.light .section-title {
+  color: darkgreen;
+}
+
+.dark .section-title {
+  color: aliceblue;
+}
+
+.light p {
+  color: red;
+}
+
+.dark p {
+  color: yellow;
+}
+
+.dark .demo p {
+  color: orchid;
+}
+
+.list-items {
+  list-style: none;
+}
+
+.list-items .list-item {
+  color: green;
+  font-size: 32px;
+}
+
+/* BEM Notation */
+
+.list-items .list-item:first-child {
+  color: #b34501;
+}
+
+.list-items .list-item:last-child {
+  color: #f7f7f7;
+}
+
+.list-items .list-item::before {
+  content: '🤣';
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+/* CSS Colors color, background-color */
+/* color names color: */
+/* HEX COdes, RGB/RGBA, HSLA */
+
+/* RGB - red, green, blue */
+/* value - 0 - 255 - 256 - 2^8 * 2^8 * 2^8 */
+/* alpha - 0 - 100%, 0 - 1 (100) */
+/* rgb(255, 255, 255) */
+
+/* HEX -- 6 values - HEXA Decimal - 16(0-9)(a-f) */
+
+/* hue saturation level */

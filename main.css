@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: green;
+}
+
+.logo {
+  font-size: 20px;
+  color: #ef4036;
+  font-weight: 700;
+}
+
+.hero {
+  min-height: calc(100vh - 5rem);
+  background-color: aqua;
+}
+.hero span {
+  color: #ef4036;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+
+.hero-btn {
+  background-color: #ef4036;
+  color: #fff;
+}
