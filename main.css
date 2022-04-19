@@ -36,56 +36,20 @@ a {
   color: #68a3ff;
 }
 
-.nav {
-  height: 5rem;
-  background-color: #222;
-  padding: 1rem 0;
-}
-.nav-title {
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 2px;
+.banner {
+  border: 5px solid red;
+  padding: 10px;
 }
 
-.nav-center {
-  width: 90vw;
-  max-width: 1170px;
-  margin: 0 auto;
+.one {
+  float: left;
 }
 
-.hero {
-  background: linear-gradient(
-      to right,
-      rgba(105, 62, 27, 0.5),
-      rgba(105, 62, 27, 1)
-    ),
-    url('./koffe.avif') center/cover no-repeat;
-  min-height: calc(100vh - 5rem);
+.two {
+  float: right;
+  height: 40px;
 }
 
-.hero-center {
-  width: 90vw;
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 5rem 0;
-  color: #fff;
-}
-
-.hero-center h1 {
-  letter-spacing: 2px;
-  text-transform: capitalize;
-  margin-bottom: 0.75rem;
-}
-
-.hero-center p {
-  margin-bottom: 1.5rem;
-  max-width: 35rem;
-}
-
-.btn-hero {
-  background: transparent;
-  border: 1px solid #fff;
-  color: #fff;
+p {
+  clear: both;
 }
