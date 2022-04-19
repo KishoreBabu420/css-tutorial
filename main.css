@@ -6,35 +6,74 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
+  background-color: #f1f5f9;
 }
 
 html {
   font-size: 16px;
 }
 
-.navbar {
-  height: 5rem;
-  background-color: green;
-}
-
-.logo {
-  font-size: 20px;
-  color: #ef4036;
-  font-weight: 700;
-}
-
-.hero {
-  min-height: calc(100vh - 5rem);
-  background-color: aqua;
-}
-.hero span {
-  color: #ef4036;
-  font-size: 30px;
-  display: block;
+.card {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
   text-align: center;
+  max-width: 20rem;
+  margin: 3rem auto;
+  border: 2px solid transparent;
 }
 
-.hero-btn {
-  background-color: #ef4036;
-  color: #fff;
+/* height, weight, padding, border, margin */
+/* Padding & Margin: 2 (top & Bottom)(left & right), 3 top, (left & right), bottom, 4 top,right,bottom, left, 1 - all sided  */
+
+/* border: size type color */
+
+.card-1 {
+  border-color: #ff69a6;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card-1 .icon {
+  background-color: #ff69a6;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.text {
+  line-height: 1.5;
+  color: grey;
+  margin: 0.5rem auto;
+}
+
+.btn {
+  text-transform: capitalize;
+  border: transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  letter-spacing: 2px;
+}
+.btn-pink {
+  background-color: #ffe8f1;
+  color: #ff69a6;
+}
+
+.btn-blue {
+  background-color: #ecf3ff;
+  color: #68a3ff;
+}
+
+.card-2 .icon {
+  background-color: #68a3ff;
+}
+
+.card-2 {
+  border-color: #68a3ff;
 }
