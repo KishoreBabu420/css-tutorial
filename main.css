@@ -39,45 +39,17 @@ a {
   color: #68a3ff;
 }
 
-.banner {
-  background-color: blue;
-  padding: 1rem;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-  text-decoration: underline;
-  text-transform: capitalize;
-  font-size: 32px;
-}
-
-/* Media Queries */
+/* Responsive CSS*/
+/* Screen above 576px for large mobiles */
 @media screen and (min-width: 576px) {
 }
 
-@media screen and (min-width: 768px) {
-  body {
-    background-color: blue;
-  }
-  .banner {
-    background-color: red;
-  }
+/* screen above 768px for tablets */
 
-  h1 {
-    font-size: 48px;
-  }
+@media screen and (min-width: 768px) {
 }
 
-@media screen and (min-width: 1024px) {
-  body {
-    background-color: green;
-  }
-  .banner {
-    background-color: pink;
-  }
+/* screen above 1024px for laptops */
 
-  h1 {
-    font-size: 64px;
-  }
+@media screen and (min-width: 1024px) {
 }
