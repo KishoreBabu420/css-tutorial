@@ -53,3 +53,14 @@ a {
 
 @media screen and (min-width: 1024px) {
 }
+
+/* Desktop First Responsive CSS*/
+/* screen below 768px for tablets */
+@media screen and (max-width: 768px) {
+}
+/* Screen below 576px for large mobiles */
+@media screen and (max-width: 576px) {
+}
+/* Screen below 375px for small mobiles */
+@media screen and (max-width: 375px) {
+}
