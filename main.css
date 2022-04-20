@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,7 @@
 body {
   font-family: 'Noto Sans', sans-serif;
   line-height: 1.5;
+  background-color: yellow;
 }
 
 html {
@@ -36,36 +39,45 @@ a {
   color: #68a3ff;
 }
 
-div {
-  border: 3px solid red;
-  background: yellow;
-  margin-top: 40px;
-  text-align: right;
-  padding: 1rem;
-  /* position: relative; */
-}
-
-.one {
+.banner {
   background-color: blue;
-  color: white;
-  text-align: left;
-  /* position: absolute; */
-  /* top: 10%; */
-  /* left: 0; */
-}
-.two {
-  background-color: green;
-  color: white;
-  position: relative;
+  padding: 1rem;
 }
 
-.special {
-  background-color: pink;
-  font-size: 20px;
-  color: #222;
-  position: absolute;
-  right: 10%;
-  bottom: 10%;
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: 32px;
 }
 
-/* Position - relative, absolute, sticky, fixed */
+/* Media Queries */
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+  .banner {
+    background-color: red;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: green;
+  }
+  .banner {
+    background-color: pink;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+}
